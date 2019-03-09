@@ -5,7 +5,6 @@ class CreateTickets < ActiveRecord::Migration[5.2]
       t.integer :price
       t.string :email
       t.boolean :tent
-
       t.timestamps
     end
   end
